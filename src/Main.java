@@ -116,7 +116,7 @@ public class Main {
                 long avgIters     = totalIters / MEASURE_RUNS;
 
                 System.out.printf(
-                        "Набор %2d (n=%5d): среднее время = %5d μs, среднее итераций = %10d%n",
+                        "Набор %2d (n=%5d): среднее время = %5d, среднее итераций = %10d%n",
                         set, size, avgTimeMicro, avgIters
                 );
             }
